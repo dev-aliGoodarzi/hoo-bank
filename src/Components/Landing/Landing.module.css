@@ -1,8 +1,5 @@
 .landingContainer {
   width: calc(100vw - 162px);
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
 }
 
 .landingContainer .left .discount {

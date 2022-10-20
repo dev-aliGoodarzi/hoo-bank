@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./Advantages.module.css";
 // CSS
 const Advantages = () => {
-  return <div className={`${styles.advantagesContainer} mt-80 `}>test</div>;
+  return <div className={`${styles.advantagesContainer} mt-40 `}>test</div>;
 };
 
 export default Advantages;
