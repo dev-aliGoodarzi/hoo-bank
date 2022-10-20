@@ -8,3 +8,9 @@ export interface I_status {
   value: string;
   hasAfterRow: boolean;
 }
+
+export interface I_advantageCards {
+  Icon: any;
+  name: string;
+  content: string;
+}

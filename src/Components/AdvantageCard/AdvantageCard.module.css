@@ -1,0 +1,27 @@
+.advantageCard {
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  position: relative;
+}
+
+.advantageCard .icon {
+  background-color: #09977d10;
+}
+
+.advantageCard::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff10), to(#14101d10));
+  background: linear-gradient(#ffffff10, #14101d10);
+  opacity: 0;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  border-radius: 1rem;
+}
+
+.advantageCard:hover::after {
+  opacity: 1;
+}
+/*# sourceMappingURL=AdvantageCard.module.css.map */
