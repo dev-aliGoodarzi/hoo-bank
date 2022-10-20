@@ -1,1 +1,4 @@
-/* No CSS *//*# sourceMappingURL=Header.module.css.map */
+.headerContainer .right a:first-child {
+  margin-left: 0px;
+}
+/*# sourceMappingURL=Header.module.css.map */

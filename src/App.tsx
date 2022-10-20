@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div
       className="
-    2xl:px-36 pt-9
+    2xl:px-36 pt-9 w-screen h-screen
     box-border
     all "
     >

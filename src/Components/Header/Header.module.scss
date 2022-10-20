@@ -1,0 +1,9 @@
+.headerContainer {
+  .right {
+    a {
+      &:first-child {
+        margin-left: 0px;
+      }
+    }
+  }
+}
