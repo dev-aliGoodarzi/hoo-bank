@@ -7,7 +7,7 @@ import styles from "./Header.module.css";
 // Images
 import { LOGO } from "../../assets";
 import { Link } from "react-router-dom";
-import { headerLinks } from "../../constants/headerTexts";
+import { headerLinks } from "../../constants/constants";
 // Images
 
 const Header = () => {

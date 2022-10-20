@@ -15,7 +15,7 @@ const App = () => {
     <div
       className="
     2xl:px-36 pt-9 w-screen h-screen
-    box-border
+    box-border 
     all "
     >
       <Header />

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,gBAAgB,EAAE,OAAO;EACzB,gBAAgB,EAAE,qEAOjB;EACD,eAAe,EAAE,IAAI;EACrB,uBAAuB,EAAE,IAAI;EAC7B,oBAAoB,EAAE,IAAI;EAC1B,uBAAuB,EAAE,WAAW;EACpC,oBAAoB,EAAE,WAAW;CAClC",
+    "sources": [
+        "StatusCard.module.scss"
+    ],
+    "names": [],
+    "file": "StatusCard.module.css"
+}
