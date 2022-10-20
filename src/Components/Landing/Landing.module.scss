@@ -1,5 +1,6 @@
 .landingContainer {
-  width: calc(100vw - 144px);
+  width: calc(100vw - 162px);
+  height: max-content;
   .left {
     .discount {
       background: linear-gradient(#272727, #11101d);
@@ -54,12 +55,14 @@
       height: 100%;
       position: relative;
       z-index: 5;
+      right: 0;
     }
     .cards {
-      width: 100%;
+      width: 90%;
       height: 100%;
       top: 0%;
-      right: 0;
+      left: 0;
+
       .overlay {
         position: absolute;
         width: 20%;

@@ -1,5 +1,8 @@
 .landingContainer {
-  width: calc(100vw - 144px);
+  width: calc(100vw - 162px);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
 }
 
 .landingContainer .left .discount {
@@ -47,13 +50,14 @@
   height: 100%;
   position: relative;
   z-index: 5;
+  right: 0;
 }
 
 .landingContainer .right .cards {
-  width: 100%;
+  width: 90%;
   height: 100%;
   top: 0%;
-  right: 0;
+  left: 0;
 }
 
 .landingContainer .right .cards .overlay {

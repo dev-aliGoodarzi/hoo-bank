@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./Home.module.css";
 // CSS
 import {
-  // Advantages,
+  Advantages,
   // BetterDeal,
   // BillingControl,
   // Footer,
@@ -18,8 +18,9 @@ import {
 const Home = () => {
   return (
     <>
-      <main className={`${styles.mainContainer}`}>
+      <main className={`${styles.mainContainer} `}>
         <Landing />
+        <Advantages />
         {/* <Advantages />
         <BillingControl />
         <BetterDeal />

@@ -14,7 +14,7 @@ const Landing = () => {
   return (
     <>
       <div
-        className={`flex flex-row items-center justify-between w-full mt-20 ${styles.landingContainer}`}
+        className={`flex flex-row items-center justify-between w-full mt-20  ${styles.landingContainer}`}
       >
         <div
           className={`flex flex-col items-start justify-center w-1/2 h-full  ${styles.left}`}
@@ -88,7 +88,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-between box-border px-28">
+      <div className="flex flex-row items-center justify-between box-border px-28 mt-40">
         {statusOfCompany.map((item) => (
           <StatusCard
             key={item.name}
