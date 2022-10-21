@@ -20,7 +20,7 @@ const StatusCard: React.FunctionComponent<StatusCardProps> = ({
 }) => {
   return (
     <div
-      className="flex flex-row items-center justify-center w-1/4 box-border px-3 pr-12"
+      className="flex flex-row items-center justify-center w-1/3 box-border px-3 pr-12"
       style={{
         borderRight: hasAfterRow ? "2px solid rgba(255,255,255,0.6)" : "none",
       }}

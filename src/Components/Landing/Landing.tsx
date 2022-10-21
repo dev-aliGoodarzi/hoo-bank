@@ -88,7 +88,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center justify-between box-border px-28 mt-20">
+      <div className="flex flex-row items-center justify-start box-border px-28 mt-20">
         {statusOfCompany.map((item) => (
           <StatusCard
             key={item.name}
