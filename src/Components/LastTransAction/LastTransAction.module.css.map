@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,UAAU,EAAE,4DAA4D;EACxE,UAAU,EAAE,KAAK,CAAE,UAAU,CAAE,UAAU,CAAC,SAAU,CAAC,mBAAmB;EACxE,eAAe,EAAE,eAAe;CACjC",
+    "sources": [
+        "LastTransAction.module.scss"
+    ],
+    "names": [],
+    "file": "LastTransAction.module.css"
+}

@@ -6,6 +6,7 @@ import styles from "./Home.module.css";
 // CSS
 import {
   Advantages,
+  BillingControl,
   // BetterDeal,
   // BillingControl,
   // Footer,
@@ -14,15 +15,21 @@ import {
   // Testimonial,
   // TryOurService,
 } from "../../Components/index";
-
+import { Fade } from "react-awesome-reveal";
 const Home = () => {
   return (
     <>
       <main className={`${styles.mainContainer} `}>
-        <Landing />
-        <Advantages />
-        {/* <Advantages />
-        <BillingControl />
+        <Fade direction="left">
+          <Landing />
+        </Fade>
+        <Fade>
+          <Advantages />
+        </Fade>
+        <Fade direction="up" triggerOnce={true}>
+          <BillingControl />
+        </Fade>
+        {/* 
         <BetterDeal />
         <Testimonial />
         <OurBigCustomers />

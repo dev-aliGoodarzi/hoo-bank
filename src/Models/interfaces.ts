@@ -14,3 +14,12 @@ export interface I_advantageCards {
   name: string;
   content: string;
 }
+
+export interface I_transAction {
+  name: string;
+  timeAgo: string;
+  value: string;
+  icon: any;
+  goodOrBad: "good" | "bad";
+  imgBg: "white" | "red";
+}

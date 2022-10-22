@@ -2,12 +2,14 @@ import {
   I_status,
   I_HeaderLinks,
   I_advantageCards,
+  I_transAction,
 } from "./../Models/interfaces";
 
 import { AiOutlineStar } from "react-icons/ai";
 import { BsShieldCheck } from "react-icons/bs";
 import { IoIosSend } from "react-icons/io";
 
+import { dribblePro, manulife, netflix } from "../assets";
 export const headerLinks: I_HeaderLinks[] = [
   {
     nameForDisplay: "Home",
@@ -65,5 +67,32 @@ export const advantageCards: I_advantageCards[] = [
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
     Icon: IoIosSend,
+  },
+];
+
+export const transactionData: I_transAction[] = [
+  {
+    icon: dribblePro,
+    name: "Dribbble Pro",
+    timeAgo: "15 Days ago",
+    value: "-$250,93",
+    goodOrBad: "bad",
+    imgBg: "red",
+  },
+  {
+    icon: netflix,
+    name: "Netflix",
+    timeAgo: "4 Days ago",
+    value: "-$250,93",
+    goodOrBad: "bad",
+    imgBg: "white",
+  },
+  {
+    icon: manulife,
+    name: "Manulife Cash",
+    timeAgo: "4 Days ago",
+    value: "-$250,93",
+    goodOrBad: "good",
+    imgBg: "white",
   },
 ];

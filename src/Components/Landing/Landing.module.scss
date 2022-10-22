@@ -5,46 +5,6 @@
       background: linear-gradient(#272727, #11101d);
     }
     .ad {
-      .gradient {
-        background-color: #f3ec78;
-        background-image: linear-gradient(
-          #def9fa,
-          #bef3f5,
-          #9dedf0,
-          #7de7eb,
-          #5ce1e6,
-          #33bbcf
-        );
-        background-size: 100%;
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-      }
-      .orderBtn {
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 1;
-        border-radius: 50%;
-        background-image: linear-gradient(
-          #def9fa,
-          #bef3f5,
-          #9dedf0,
-          #7de7eb,
-          #5ce1e6,
-          #33bbcf
-        );
-        .inner {
-          width: 95%;
-          height: 95%;
-          position: absolute;
-          top: 2.5%;
-          left: 2.5%;
-          background-color: #181830;
-          border-radius: 50%;
-        }
-      }
     }
   }
   .right {

@@ -7,8 +7,8 @@ import styles from "./Landing.module.css";
 // Compnents And Modules
 import { card1, card2, card3, discountLogo, robotHand } from "../../assets";
 import { discountPercentage, statusOfCompany } from "../../constants/constants";
-import { BsArrowUpRight } from "react-icons/bs";
 import StatusCard from "../StatusCard/StatusCard";
+import CustomGradiantBtn from "../CustomGradiantBtn/CustomGradiantBtn";
 // Compnents And Modules
 const Landing = () => {
   return (
@@ -38,7 +38,7 @@ const Landing = () => {
                 The Next
               </span>
               <span
-                className={`${styles.gradient} text-7xl font-semibold py-6`}
+                className={`${styles.gradient} text-7xl font-semibold py-6 text-white`}
               >
                 Generation
               </span>
@@ -46,26 +46,13 @@ const Landing = () => {
                 Payment Method
               </span>
             </div>
-            <button
-              className={`${styles.orderBtn} flex flex-col items-start justify-center mr-72
-            2xl:w-36 2xl:h-36
-            
-            `}
-            >
-              <div
-                className={`${styles.inner} flex flex-col items-center justify-center `}
-              >
-                <span
-                  className={`${styles.gradient} top text-white flex flex-row items-center justify-center text-lg`}
-                >
-                  Get&nbsp;
-                  <BsArrowUpRight className="w-3 h-3 " />
-                </span>
-                <span className={`${styles.gradient} text-white text-lg`}>
-                  Started
-                </span>
-              </div>
-            </button>
+            <CustomGradiantBtn
+              haveArrow={true}
+              innerText1={"Get"}
+              innerText2={"Started"}
+              isFullRounded={true}
+              classOuter={"2xl:w-36 2xl:h-36"}
+            />
           </div>
           <p className="text-white text-lg mt-10">
             Our team of experts uses a methodology to identify
