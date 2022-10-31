@@ -22,6 +22,10 @@ import playStore from "./Images/playStore.png";
 
 import greenCheck from "./Images/greenCheck.png";
 
+import appleIcon from "./Images/appleIcon.png";
+import visaIcon from "./Images/visaIcon.png";
+import shopifyIcon from "./Images/shopifyIcon.png";
+
 export {
   LOGO,
   discountLogo,
@@ -45,6 +49,9 @@ export {
   //
   greenCheck,
   //
+  appleIcon,
+  visaIcon,
+  shopifyIcon,
   //
   //
 };

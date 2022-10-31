@@ -23,3 +23,8 @@ export interface I_transAction {
   goodOrBad: "good" | "bad";
   imgBg: "white" | "red";
 }
+
+export interface I_IconsArray {
+  iconId: string;
+  src: any;
+}

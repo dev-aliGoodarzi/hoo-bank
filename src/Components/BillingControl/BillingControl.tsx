@@ -20,7 +20,9 @@ const BillingControl = () => {
         <LastTransAction />
         <div className={styles.paymentMessage}></div>
       </div>
-      <div className={`${styles.right}  flex flex-col items-start`}>
+      <div
+        className={`${styles.right}  flex flex-col items-start w-5/12 pl-10`}
+      >
         <p className="text-5xl text-white font-semibold">
           Easily control your
           <br />

@@ -6,6 +6,7 @@ import styles from "./Home.module.css";
 // CSS
 import {
   Advantages,
+  BetterDeal,
   BillingControl,
   // BetterDeal,
   // BillingControl,
@@ -20,7 +21,7 @@ const Home = () => {
   return (
     <>
       <main className={`${styles.mainContainer} `}>
-        <Fade direction="left">
+        <Fade duration={700}>
           <Landing />
         </Fade>
         <Fade>
@@ -29,8 +30,8 @@ const Home = () => {
         <Fade direction="up" triggerOnce={true}>
           <BillingControl />
         </Fade>
-        {/* 
         <BetterDeal />
+        {/* 
         <Testimonial />
         <OurBigCustomers />
         <TryOurService />

@@ -1,0 +1,12 @@
+.scanCardsContainer {
+  background: linear-gradient(
+    121.51deg,
+    #ffffff -264.89%,
+    #6d6d6d -77.96%,
+    #11101d 80.93%
+  );
+  backdrop-filter: blur(5px);
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,oBADkB,CAClB,KAAK,CAAC;EACJ,KAAK,EAAE,GAAG;CAaX;;AAfH,AAGI,oBAHgB,CAClB,KAAK,CAEH,MAAM,CAAC;EACL,UAAU,EAAE,4HAQX;EACD,aAAa,EAAE,IAAI;CACpB;;AAdL,AAgBE,oBAhBkB,CAgBlB,MAAM,CAAC;EACL,KAAK,EAAE,GAAG;CAGX",
+    "sources": [
+        "BetterDeal.module.scss"
+    ],
+    "names": [],
+    "file": "BetterDeal.module.css"
+}

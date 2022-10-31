@@ -36,7 +36,7 @@ const Advantages = () => {
       </div>
       <div
         className={`
-      ${styles.right}`}
+      ${styles.right} w-5/12`}
       >
         {advantageCards.map((item) => (
           <AdvantageCard

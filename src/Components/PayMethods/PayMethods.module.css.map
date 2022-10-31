@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,4DAA4D;EACxE,eAAe,EAAE,SAAS;EAC1B,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "PayMethods.module.scss"
+    ],
+    "names": [],
+    "file": "PayMethods.module.css"
+}
