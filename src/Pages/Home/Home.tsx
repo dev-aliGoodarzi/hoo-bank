@@ -30,7 +30,9 @@ const Home = () => {
         <Fade direction="up" triggerOnce={true}>
           <BillingControl />
         </Fade>
-        <BetterDeal />
+        <Fade>
+          <BetterDeal />
+        </Fade>
         {/* 
         <Testimonial />
         <OurBigCustomers />
